@@ -14,9 +14,18 @@ Implementation:
 1. Download the cloud.tf and vars.tf file.
 2. Replace the access_key, secret_key and key file values in the files.
 3. Generate the .PEM, .ppk files and place in the same location as cloud.tf and vars.tf.
+<<<<<<< HEAD
 4. On a linux machine, execute the following
 							ssh-keygen -y -f <KEYPAIR>.pem
 5. Copy the output and paste it in a empty file and this will be <Your_Key>. Maintain this in the same directory as other .tf files.
 6. Execute below commands.
 							terraform plan
 							terraform apply -auto-approve
+=======
+4. On a linux machine, execute the following<br>
+							ssh-keygen -y -f <KEYPAIR>.pem
+5. Copy the output and paste it in a empty file and this will be <Your_Key>. Maintain this in the same directory as other .tf files.
+6. Execute below commands.<br>
+							terraform plan<br>
+							terraform apply -auto-approve<br>
+>>>>>>> bc6387653de0136f29ff67b094ce67f7e5a4432f
